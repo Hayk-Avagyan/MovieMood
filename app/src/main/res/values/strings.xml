@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Movie Mood</string>
+
+    <string name="animation">anim_logo.json</string>
+
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="sign_in">Sign in </string>
+
+    <string name="passwordPattern">((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})</string>
+    <string name="emailPattern">[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+</string>
+    <string name="invalidEmail">Invalid email address or password</string>
+
+
+    <string name="accountCreated">Account Created</string>
+    <string name="accountCreationFailed">Account Creation Failed</string>
+
+    <string name="searchMovie">Search</string>
+    <string name="searchMovieEditText">Search for a movie by mood</string>
+
+
+    <string name="movieTrailer">Watch Trailer</string>
+
+
+    <string name="navHome">Home</string>
+    <string name="navSearch">Search</string>
+    <string name="navFavorite">Favorites</string>
+    <string name="navProfile">Profile</string>
+
+
+    <string name="topRated">Top Rated</string>
+    <string name="comingSoon">Coming Soon</string>
+    <string name="tvSerials">TV Serials</string>
+
+
+    <string name="releaseDate">Release date —</string>
+    <string name="runtime">Runtime —</string>
+    <string name="voteAverage">Vote average —</string>
+    <string name="budget">Budget —</string>
+    <string name="overview">Overview —</string>
+
+</resources>

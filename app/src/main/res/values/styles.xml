@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Theme for SplashScreen -->
+    <style name="SplashTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+</resources>

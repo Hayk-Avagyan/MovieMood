@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "597986405280",
+    "firebase_url": "https://movie-mood.firebaseio.com",
+    "project_id": "movie-mood",
+    "storage_bucket": "movie-mood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597986405280:android:ae5238fb878b1dfc9012c5",
+        "android_client_info": {
+          "package_name": "com.example.movie_h_b.moviemood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597986405280-7usne3gl4ufshhq2lcmjf3ctbm1k1fgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBReXEXPSo_1rqUwa7voBj2A2Ro2DCa6XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597986405280-7usne3gl4ufshhq2lcmjf3ctbm1k1fgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

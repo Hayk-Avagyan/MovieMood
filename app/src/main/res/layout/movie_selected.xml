@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/movie_selected_poster"
+        android:layout_width="180dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie_selected_title"
+        app:roundBottomLeft="true"
+        app:roundBottomRight="true"
+        app:roundedCornerRadius="24dp"
+        fresco:actualImageScaleType="centerCrop" />
+
+    <FrameLayout
+        android:id="@+id/fram_layout_trailer_btn"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_button_search"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie_selected_poster">
+
+        <Button
+            android:id="@+id/trailer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:drawableStart="@drawable/ic_play_arrow_black_24dp"
+            android:gravity="center"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="@string/movieTrailer"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/movie_selected_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/movie_release_date"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_date_range_black_24dp"
+        android:text="@string/releaseDate"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@+id/movie_selected_poster"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_selected_title" />
+
+    <TextView
+        android:id="@+id/movie_runtime"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_access_time_black_24dp"
+        android:text="@string/runtime"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@+id/movie_selected_poster"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_release_date" />
+
+    <TextView
+        android:id="@+id/movie_vote_average"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_star_half_black_24dp"
+        android:text="@string/voteAverage"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@+id/movie_selected_poster"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_runtime" />
+
+    <TextView
+        android:id="@+id/movie_budget"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:drawableStart="@drawable/icons8_money_bag_50"
+        android:gravity="center_vertical"
+        android:text="@string/budget"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@+id/movie_selected_poster"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_vote_average" />
+
+    <TextView
+        android:id="@+id/movie_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_featured_play_list_black_24dp"
+        android:text="@string/overview"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fram_layout_trailer_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

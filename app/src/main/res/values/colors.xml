@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A173</color>
+    <color name="colorPrimaryDark">#00A173</color>
+    <color name="colorAccent">#00A173</color>
+
+    <color name="moviesBackground">#000D13</color>
+
+    <color name="bottomNav">#000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="button">#2D000000</color>
+    <color name="black">#000000</color>
+
+    <color name="tes">#27FF3369</color>
+
+</resources>
